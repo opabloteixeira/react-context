@@ -9,15 +9,15 @@ import ThemeContainer from './components/ThemeContainer';
 
 const App = () => (
 
-        <ThemeProvider>    
-            <CountProvider>
-                <ThemeContainer>
-                    <Counter></Counter>
-                    <hr />
-                    <Mirror></Mirror>
-                </ThemeContainer>
-            </CountProvider>
-        </ThemeProvider>
+      <ThemeProvider>
+         <CountProvider>
+               <ThemeContainer>
+                  <Counter></Counter>
+                  <hr />
+                  <Mirror></Mirror>
+               </ThemeContainer>
+         </CountProvider>
+      </ThemeProvider>
 
 )
 
